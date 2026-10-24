@@ -68,3 +68,5 @@ npm run dev
 ## 🔐 Account Setup
 
 No default accounts or passwords are included. Residents can register through the app. To create an initial administrator, set `ADMIN_EMAIL` and `ADMIN_PASSWORD` in the server environment before its first start. Set a strong `JWT_SECRET` for deployments; production startup fails if it is missing.
+
+Local users, SOS requests, alerts, and audit logs are stored in ignored JSON files under `data/` and are not committed.
