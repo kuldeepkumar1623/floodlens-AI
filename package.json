@@ -1,0 +1,14 @@
+{
+  "name": "floodlens",
+  "version": "1.0.0",
+  "description": "FloodLens — Local Flood Awareness Dashboard",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "appTitle": "FloodLens",
+  "appSubtitle": "AI Flood Intelligence & Emergency Response Platform",
+  "tagline": "Civic Data Exploration MVP",
+  "nav": {
+    "dashboard": "Dashboard",
+    "alerts": "Official Warnings",
+    "admin": "Admin Panel"
+  },
+  "alerts": {
+    "title": "Official Flood Warnings"
+  }
+}

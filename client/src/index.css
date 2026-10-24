@@ -1,0 +1,44 @@
+/* Global CSS variables and base styles */
+:root {
+  --primary: #1a73e8;
+  --primary-dark: #1557b0;
+  --primary-light: #e8f0fe;
+  --success: #0d904f;
+  --success-light: #e6f4ea;
+  --warning: #e37400;
+  --warning-light: #fef7e0;
+  --danger: #d93025;
+  --danger-light: #fce8e6;
+  --info: #1a73e8;
+  --info-light: #e8f0fe;
+  --text-primary: #202124;
+  --text-secondary: #5f6368;
+  --text-tertiary: #80868b;
+  --bg-primary: #f8f9fa;
+  --bg-white: #ffffff;
+  --bg-card: #ffffff;
+  --border-color: #dadce0;
+  --border-radius: 8px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 2px 8px rgba(0,0,0,0.1);
+  --shadow-lg: 0 4px 16px rgba(0,0,0,0.12);
+  --font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-family);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+a { color: var(--primary); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
